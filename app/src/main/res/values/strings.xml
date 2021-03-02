@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">OctoTProject</string>
+    <string-array name="chartList">
+        <item>LineChart</item>
+        <item>BarChart</item>
+        <item>ScatterChart</item>
+        <item>PieChart</item>
+    </string-array>
+    <string-array name="group">
+        <item>그룹A</item>
+        <item>그룹B</item>
+        <item>그룹C</item>
+    </string-array>
+
+    <string-array name="properties">
+        <item>Sensor00</item>
+        <item>Sensor01</item>
+        <item>Sensor02</item>
+        <item>Sensor03</item>
+        <item>Sensor04</item>
+        <item>Sensor05</item>
+        <item>Sensor06</item>
+        <item>Sensor07</item>
+    </string-array>
+    <string name="title_activity_machine_control">Sign in</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_data_visualizing">DataVisualizingActivity</string>
+    <string name="title_activity_control">ControlActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:padding="15dp"
+    android:layout_gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alert"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="기계 정보가 변경되었습니다.\n변경된 사항을 적용하시겠습니까?\n예 버튼을 누를 시 초기화면으로 돌아갑니다."
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:layout_margin="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:layout_margin="10dp">
+        <Button
+            android:id="@+id/no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="아니요"
+            android:textColor="@color/colorPrimary"
+            android:background="#ffffff"
+            android:paddingRight="20dp"/>
+        <Button
+            android:id="@+id/yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="예"
+            android:textColor="@color/colorPrimary"
+            android:background="#ffffff"
+            android:paddingLeft="20dp"
+            android:paddingRight="18dp"/>
+
+    </LinearLayout>
+</LinearLayout>

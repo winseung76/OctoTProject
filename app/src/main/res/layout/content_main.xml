@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.seung.octotproject.MainActivity"
+    android:layout_marginTop="50dp"
+    tools:showIn="@layout/app_bar_menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/goToControl"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:paddingTop="15dp"
+            android:text="기계 제어"
+            android:textSize="12dp"
+            android:drawableTop="@drawable/control1"
+            android:background="@drawable/offstroke" />
+        <Button
+            android:id="@+id/goToVisual"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:paddingTop="15dp"
+            android:text="데이터 그래프"
+            android:textSize="12dp"
+            android:drawableTop="@drawable/chart"
+            android:background="@drawable/offstroke" />
+    </LinearLayout>
+
+</LinearLayout>

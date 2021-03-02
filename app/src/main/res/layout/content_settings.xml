@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="?android:attr/actionBarSize"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#F6F6F6"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:showIn="@layout/app_bar_settings"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Spinner
+            android:id="@+id/factory"
+            style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+            android:backgroundTint="@color/mainColor"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="45dp"
+            android:layout_margin="3dp">
+        </Spinner>
+        <Spinner
+            android:id="@+id/group"
+            style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+            android:backgroundTint="@color/mainColor"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="45dp"
+            android:layout_margin="3dp">
+        </Spinner>
+        <TextView
+            android:id="@+id/edit_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="편집"
+            android:textSize="18dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/mainColor"/>
+    </LinearLayout>
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        android:drawableLeft="@drawable/search_icon"
+        android:hint="검색"
+        android:textSize="18dp"
+        android:padding="5dp"
+        android:background="@drawable/search_layout"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <LinearLayout
+            android:id="@+id/list_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
+<android.support.design.widget.FloatingActionButton
+    android:id="@+id/fab"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom|end"
+    android:layout_margin="20dp"
+    app:backgroundTint="@color/colorPrimary"
+    android:src="@drawable/fab_icon" />
+</android.support.design.widget.CoordinatorLayout>
+
+
+
+
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#16b99a</color>
+    <color name="colorPrimaryDark">#04B486</color>
+    <color name="deepColor">#FFFFFF</color>
+    <color name="colorAccent">#16b99a</color>
+    <color name='background'>#ffffff</color>
+    <color name="subColor">#9536FF</color>
+    <color name="mainColor">#16b99a</color>
+    <color name='spinnercolor'>#505050</color>
+    <color name="fontColor">#000000</color>
+</resources>
